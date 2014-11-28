@@ -44,7 +44,7 @@ CHAPTER 1. Getting Started
 
      `Twisted Blogs`_
 
-     .. _Twisted Blods: http://labs.twistedmatrix.com/
+     .. _Twisted Blogs: http://labs.twistedmatrix.com/
 
 
 CHAPTER 2 Building Basic Clients and Servers
