@@ -42,7 +42,7 @@ CHAPTER 1. Getting Started
 
      .. _stackoverflow: http://stackoverflow.com/questions/tagged/twisted
 
-     `Twisted Blods`_
+     `Twisted Blogs`_
 
      .. _Twisted Blods: http://labs.twistedmatrix.com/
 
