@@ -70,8 +70,12 @@ Chapter 2. Selecting Elements
 --------------------
 
   The DOM serves as the interface between JavaScript and a web
-  page; it provides a representation of the source HTML as a 
-  network of objects rather  than as plain text.
+  page;
+ 
+  it provides a representation of the source HTML as a network
+  of 
+  
+  objects rather  than as plain text.
 
 2. Using the $() function
 --------------------
@@ -87,14 +91,104 @@ Chapter 2. Selecting Elements
 5. Custom selectors
 --------------------
 
+  a. Styling alternate rows 
+
+    Well, just as with the :eq() selector, the **:even** and **:odd** selectors
+   
+    use JavaScript's native zero-based numbering
+
+  b. Finding elements based on textual content
+
+    All we have to do is add a line to our jQuery code using the :contains() 
+    
+    selector
+
+  c. Form selectors::
+    
+    :input      Input, text area, select, and button elements
+    :button     Button elements and input elements with a type
+                attribute equal to button
+    :enabled    Form elements that are enabled
+    :disabled   Form elements that are disabled
+    :checked    Radio buttons or checkboxes that are checked
+    :selected   Option elements that are selected
+
 6. DOM traversal methods
 --------------------
+
+  + .filter() --> $('tr').filter(':even').addClass('alt');
+
+  a. Styling specific cells
+
+      + .next() --> $('td:contains(Henry)').next().addClass('highlight');
+        
+      + .nextAll()
+
+      + .prev()
+
+      + .prevAll()
+
+      + .siblings()
+
+      + .addBack()
+
+      + .parent()
+
+      + .children()
+
+  b. Chaining
 
 7. Accessing DOM elements
 --------------------
 
+  var myTag = $('#my-element').get(0).tagName;
+
+  var myTag = $('#my-element')[0].tagName;
+
 Chapter 3. Handling Events
 ====================
+
+1. Performing tasks on page load
+--------------------
+
+  a. Timing of code execution
+
+    + $(document).ready()
+
+    + window.onload
+
+  b. Handling multiple scripts on one page
+
+  c. Alternate syntax for .ready()
+    
+    $(document).ready() <==> $()
+
+  d. Passing an argument to the .ready() callback
+
+2. Handling simple events
+--------------------
+
+  a. A simple style switcher
+
+  b. Consolidating code using the event context
+
+  c. Shorthand events
+
+  d. Showing and hiding advanced features
+
+3. Event propagation
+--------------------
+
+  
+
+4. Altering the journey – the event object
+--------------------
+
+5. Removing an event handler
+--------------------
+
+6. Simulating user interaction
+--------------------
 
 Chapter 4. Styling and Animating
 ====================
