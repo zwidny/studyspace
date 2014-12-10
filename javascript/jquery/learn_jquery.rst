@@ -1,113 +1,127 @@
 ====================
-Learn jQuery
+Learning jQuery, 4e
 ====================
 
-Chapter 1 About jQuery
+
+Chapter 1. Getting Started
 ====================
 
-Chapter 2 JavaScript 101
+1. What jQuery does
+--------------------
+
+  + Access elements in a document
+
+  + Modify the appearance of a web page
+
+  + Alter the content of a document
+
+  + Respond to a user's interaction
+
+  + Animate changes being made to a document
+
+  + Retrieve information from a server without refreshing a page
+
+  + Simplify common JavaScript tasks
+
+2. Why jQuery works well
+--------------------
+
+  + Leverage knowledge of CSS
+
+  + Support extensions
+
+  + Abstract away browser quirks
+
+  + Always work with sets
+
+  + Allow multiple actions in one line
+
+3. Making our first jQuery-powered web page
+--------------------
+
+  a. Downloading jQuery
+
+  b. Deciding on the version of jQuery to use
+
+  c. Setting up jQuery in an HTML document
+
+  d. Adding our jQuery code
+
+  e. Finding the poem text
+
+  f. Injecting the new class
+
+  g. Executing the code
+
+  h. The finished product
+
+4. Plain JavaScript versus jQuery
+--------------------
+
+5.Using development tools
+--------------------
+
+  a. Chrome Developer Tools
+
+Chapter 2. Selecting Elements
 ====================
 
-1. Getting Started
+1. Understanding the DOM
 --------------------
 
-2. Running Code
+  The DOM serves as the interface between JavaScript and a web
+  page; it provides a representation of the source HTML as a 
+  network of objects rather  than as plain text.
+
+2. Using the $() function
 --------------------
 
-  a. External
-     
-    <script src="/path/to/example.js"></script>
-  
-  b. Inline::
-   
-       <script>
-       alert( "Hello World!" );
-       </script> 
+  In order to create a new jQuery object, we use the $() function
 
-  c. Attributes
-
-    This method is strongly discouraged::
-      
-      <!-- Inline code directly on HTML elements being clicked. -->
-      <a href="javascript:alert( 'Hello World' );">Click Me!</a>
-      <button onClick="alert( 'Good Bye World' );">Click Me Too!</button>
-
-  d. Placement
-
-    + If you are including JavaScript that doesn't access the elements on the page,
-   
-    you can safely place the script before the closing HTML <head> tag. 
-    
-    + However, if the code will interact with the elements on the page, you have to 
-      
-    make sure those elements exist at the time the script is executed
-
-    + It is a common pattern to move scripts to the bottom of the page, prior to the
-     
-    closing HTML <body> tag
-
-3. Syntax Basics
+3. CSS selectors
 --------------------
 
-4. Types
+4. Attribute selectors
 --------------------
 
-5. Operators
+5. Custom selectors
 --------------------
 
-6. Conditional Code
+6. DOM traversal methods
 --------------------
 
-7. Loops
+7. Accessing DOM elements
 --------------------
 
-8. Reserved Words
---------------------
-
-9. Arrays
---------------------
-
-10. Objects
---------------------
-
-11. Functions
---------------------
-
-12. Testing Type
---------------------
-
-13. The "this" Keyword
---------------------
-
-14. Scope
---------------------
-
-15. Closures
---------------------
-
-Chapter 2 Using jQuery Core
+Chapter 3. Handling Events
 ====================
 
-Chapter 4 Events
+Chapter 4. Styling and Animating
 ====================
 
-Chapter 5 Effects
+Chapter 5. Manipulating the DOM
 ====================
 
-Chapter 6 Ajax 
+Chapter 6. Sending Data with Ajax
 ====================
 
-Chapter 7 Plugins 
+Chapter 7. Using Plugins
 ====================
 
-Chapter 8 Performance
+Chapter 8. Developing Plugins
 ====================
 
-Chapter 9 Code Organization
+Chapter 9. Advanced Selectors and Traversing
 ====================
 
-Chapter 10 jQuery UI
+Chapter 10. Advanced Events
 ====================
 
-Chapter 11 jQuery Mobile
+Chapter 11. Advanced Effects
+====================
+
+Chapter 12. Advanced DOM Manipulation
+====================
+
+Chapter 13. Advanced Ajax
 ====================
