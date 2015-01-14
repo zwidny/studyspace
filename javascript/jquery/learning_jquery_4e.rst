@@ -38,11 +38,11 @@ Chapter 2. Selecting Elements
   The three primary building blocks of selectors are tag name, ID, and class
 
   +---------------+-------------+---------------+
-  | Selector Type |  CSS        | jQuery |
+  | Selector Type |  CSS        | jQuery        |
   +---------------+-------------+---------------+
-  | Tag name      |  p{}        | $('p') |
+  | Tag name      |  p{}        | $('p')        |
   +---------------+-------------+---------------+
-  | ID            | #a-id {}    | $('#a-id') |
+  | ID            | #a-id {}    | $('#a-id')    |
   +---------------+-------------+---------------+
   | Class         | .a-class {} | $('.a-class') |
   +---------------+-------------+---------------+
