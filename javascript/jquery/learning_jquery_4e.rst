@@ -91,4 +91,31 @@ Chapter 2. Selecting Elements
 Chapter 3. Handling Events
 ====================
 
+1. Performing tasks on page load
+--------------------
 
+  a. Timing of code execution
+
+  b. Handling multiple scripts on one page
+
+  c. Alternate syntax for .ready()
+
+  d. Passing an argument to the .ready() callback
+
+2. Handling simple events
+--------------------
+
+3. Event propagation
+--------------------
+
+4. Altering the journey – the event object
+--------------------
+
+5. Removing an event handler
+--------------------
+
+6. Simulating user interaction
+--------------------
+
+7. Summary
+--------------------
