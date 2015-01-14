@@ -39,7 +39,7 @@ Chapter 2. Selecting Elements
 
   +---------------+-------------+---------------+
   | Selector Type |  CSS        | jQuery        |
-  +---------------+-------------+---------------+
+  +===============+=============+===============+
   | Tag name      |  p{}        | $('p')        |
   +---------------+-------------+---------------+
   | ID            | #a-id {}    | $('#a-id')    |
@@ -95,27 +95,121 @@ Chapter 3. Handling Events
 --------------------
 
   a. Timing of code execution
+    
+    The **window.onload** event fires when a document is completely downloaded 
+    to
+   
+    the browser.
+
+
+    The **$(document).ready()** is invoked when the DOM is completely ready for
+   
+    use
 
   b. Handling multiple scripts on one page
 
   c. Alternate syntax for .ready()
 
+    When we pass in a function as the argument to $() , jQuery performs an
+   
+    implicit call to .ready(d. Passing an argument to the .ready() callback
+
+    e.g.::
+      $(document).ready(function() {
+      // Our code here...
+      });
+
+      <=>
+
+      $(function() {
+      // Our code here...
+      });
+
+
   d. Passing an argument to the .ready() callback
+
+    we need a way to prevent collisions between diff jquery library uses.
 
 2. Handling simple events
 --------------------
 
+  a. A simple style switcher
+
+    we'll introduce the **.on()** method. This method allows us to specify
+   
+    any DOM event and to attach a behavior to it.
+
+  b. Enabling the other buttons
+
+  c. Making use of the event handler context
+
+  d. Consolidating code using the event context
+
+  e. Shorthand events
+
+  f. Showing and hiding advanced features
+
+    JQuery provides an easy way for us to add or remove a class depending on
+   
+    whether that class is already present—the **.toggleClass()** method
+
 3. Event propagation
 --------------------
+
+  .hover()
 
 4. Altering the journey – the event object
 --------------------
 
+  a. Event targets
+
+  b. Stopping event propagation
+
+    event.stopPropagation();
+
+  c. Preventing default actions
+
+    event.preventDefault()
+
+  d. Delegating events
+
+  f. Using built-in event-delegation capabilities
+
 5. Removing an event handler
 --------------------
+
+  a. Giving namespaces to event handlers
+
+  b. Rebinding events
 
 6. Simulating user interaction
 --------------------
 
 7. Summary
+--------------------
+
+Chapter 4. Styling and Animating
+====================
+
+1. Modifying CSS with inline properties
+--------------------
+
+2. Hiding and showing elements
+--------------------
+
+3. Effects and duration
+--------------------
+
+  a. Speeding in
+
+  b. Fading in and fading out
+
+  c. Sliding up and sliding down
+
+  d. Toggling visibility
+
+4. Creating custom animations
+--------------------
+
+5. Simultaneous versus queued effects
 --------------------
