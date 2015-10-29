@@ -45,9 +45,37 @@ The AngularJS Philosophy
 
 + Extensible
 
++ Test first, test again, keep testing
+  Karma, Protractor
+
 
 Starting Out with AngularJS
 --------------------
 
 Conclusion
 --------------------
+
+
+Chapter 2. Basic AngularJS Directives and Controllers 
+====================
+
+AngularJS Modules
+--------------------
+
+Creating Our First Controller
+--------------------
+
+Working with and Displaying Arrays
+--------------------
+
+More Directives
+--------------------
+
+Working with ng-repeat
+--------------------
+
+Conclusion
+--------------------
+
+
+
