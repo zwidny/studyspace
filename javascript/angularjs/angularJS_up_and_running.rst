@@ -62,6 +62,33 @@ Chapter 2. Basic AngularJS Directives and Controllers
 AngularJS Modules
 --------------------
 
+Define a module
+~~~~~~~~~~~~~~~~~~~~
+
++ angular.module('moduleName', []);
+
+  The first argument to the module function in AngularJS is the name of the module
+
+  The second argument is an array of module names that this module depends on
+
+  e.g.::
+    angular.module('noteApp', ['modules1', 'module2']);
+
++ a complete example to make sense of this::
+    <html ng-app="noteApp">
+    <head>
+      <title>Hello AngularJS Modules</title>
+    </head>
+    <body>
+      Hello {{1 + 1}nd time AngularJS
+      <script src=""></script>
+      <script type="text/javascript">
+        angular.module();
+      </script>
+    </body>
+    </html>
+
+
 Creating Our First Controller
 --------------------
 
